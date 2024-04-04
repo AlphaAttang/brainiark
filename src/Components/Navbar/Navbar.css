@@ -1,0 +1,71 @@
+.nav {
+    /* background-color: blue; */
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    margin-top: 1rem;
+}
+
+.nav-container {
+    background: rgba(225, 225, 225, 0.81);
+    backdrop-filter: blur(12.4px);
+    -webkit-backdrop-filter: blur(12.4px);
+    /* background-color: black; */
+    width: 75%;
+    margin: auto;
+    max-width: 1400px;
+    padding: 0.2rem 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 80px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    color: var(--off-white);
+    z-index: 100;
+    
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-logo {
+    width: 180px;
+    /* background-color: black; */
+}
+
+.navbar img {
+    width: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-menu li {
+    cursor: pointer;
+}
+
+.nav-menu li a {
+    color: var(--off-white);
+}
+
+.nav-menu hr {
+    border: none;
+    margin-top: 7px;
+    width: 50%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: var(--gold);
+}
+
