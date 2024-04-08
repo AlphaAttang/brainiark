@@ -15,7 +15,7 @@ const Navbar = () => {
                         </figure>
                     </div>
                     <ul className="nav-menu">
-                        <li>Overwiew</li>
+                        <li>Overview</li>
                         <li>Features</li>
                         <li>Testimonials</li>
                         <li>Pricing</li>
