@@ -25,7 +25,9 @@
 }
 
 .hero h1 span {
-    color: purple;
+    background: linear-gradient(120deg, #6557ff, #aa3fff 100%);
+    background-clip: text;
+    color: transparent;
 }
 
 .hero p:first-of-type {

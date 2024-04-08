@@ -11,6 +11,7 @@ function App() {
       <Hero />
       <Features />
       <Testimonials />
+  
     </div>
   );
 }

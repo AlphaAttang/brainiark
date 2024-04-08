@@ -5,7 +5,7 @@
 }
 
 .features-head {
-    padding: 5rem 0;
+    padding: 7rem 0;
 }
 
 .features-title {
@@ -15,7 +15,9 @@
 }
 
 .features-title span {
-    color: purple;
+    background: linear-gradient(120deg, #6557ff, #aa3fff 100%);
+    background-clip: text;
+    color: transparent;
 }
 
 .features button {
@@ -30,7 +32,7 @@
 
 .features-content {
     box-shadow: 0px 0px 20px 5px rgb(238, 237, 237);
-    padding: 2rem 0;
+    padding: 2rem 1.8rem;
     border-radius: 25px;
 }
 

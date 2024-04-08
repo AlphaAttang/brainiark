@@ -1,8 +1,46 @@
+.testimonials-head {
+    padding: 7rem 0;
+}
+
 .testimonials-head h1 {
-    font-size: 65px;
+    font-size: 70px;
     font-weight: 600;
 }
 
+.testimonials-head p {
+    font-size: 18px;
+}
+
 .testimonials-head span {
-    
+    background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.testimonials-card {
+    overflow: hidden;
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.testimonials-slide {
+    /* width: 100%; */
+    display: flex;
+    animation: 40s slide infinite linear;
+    gap: 3rem;
+}
+
+.testimonials-card:hover .testimonials-slide {
+    animation-play-state: paused;
 }
