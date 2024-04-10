@@ -1,14 +1,15 @@
 import React from 'react'
 import './Features.css'
+import { Button } from '../ui/button'
 
 const Features = () => {
     return (
-        <div className='features-container'>
+        <div className='features-container' id='features'>
             <div className='features'>
                 <div className="features-head">
                     <h1 className='features-title'><span>Everything</span> You Need.</h1>
                     <p>Software that has it all, and then some.</p>
-                    <button>GET STARTED</button>
+                    <Button variant="default">GET STARTED</Button>
                 </div>
                 <div className="features-list">
                     <div className="features-content">
@@ -48,7 +49,8 @@ const Features = () => {
                     <div className="banner-content">
                         <h1>Collaboration and Sharing</h1>
                         <p>Share responsibilities, collaborate with team members, delegating tasks, leaving notes, and sharing files.</p>
-                        <button>GET STARTED</button>
+                        <Button variant="default">GET STARTED</Button>
+                        {/* <button>GET STARTED</button> */}
                     </div>
                 </div>
             </div>

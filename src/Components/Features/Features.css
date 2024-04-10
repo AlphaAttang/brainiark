@@ -1,17 +1,23 @@
+.features-container {
+    box-shadow: 0px 0px 20px 2px rgb(236, 236, 236);
+}
+
 .features {
-    margin: 0 auto 3rem;
+    margin: 0 auto;
     width: 90%;
     max-width: 1400px;
+    padding: 0 0 10rem;
 }
 
 .features-head {
-    padding: 7rem 0;
+    padding: 5rem 0;    
 }
 
 .features-title {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
     margin-bottom: 1.2rem;
+    line-height: 4.5rem;
 }
 
 .features-title span {
@@ -21,25 +27,19 @@
 }
 
 .features button {
-    padding: 0.7rem 2rem;
-    background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
-    color: white;
-    border-radius: 12px;
-    font-weight: 500;
-    font-size: 17px;
     margin-top: 1rem;
 }
 
 .features-content {
     box-shadow: 0px 0px 20px 5px rgb(238, 237, 237);
-    padding: 2rem 1.8rem;
+    padding: 2rem 1rem;
     border-radius: 25px;
 }
 
 .features-content h1 {
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 600;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.5rem;
 }
 
 .features-list {
@@ -54,6 +54,7 @@
 .banner {
     /* width: 90%; */
     margin: 3rem auto 0;
+    padding: 1rem;
     height: 400px;
     border-radius: 40px;
     background-image: url(../Assets/banner_image.jpg);
@@ -65,25 +66,38 @@
     justify-content: center;
 }
 
-.banner-content {}
-
 .banner-content h1 {
     color: white;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
 .banner-content p {
     color: white;
-    font-size: 18px;
+    /* font-size: 1rem; */
 }
 
 .banner button {
-    padding: 0.7rem 2rem;
-    background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
-    color: white;
-    border-radius: 12px;
-    font-weight: 500;
-    font-size: 17px;
     margin-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .features-content h1 {
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .features-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 475px) {
+    .features-title{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
 }

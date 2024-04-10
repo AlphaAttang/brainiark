@@ -11,21 +11,21 @@ let testimonies = [
         id: 2,
         image: p_image1,
         testimony: 'The SproutCloud team has completely streamlined our business operations. Communication was excellent and overall we are very pleased',
-        name: 'Alpha Attang',
+        name: 'Daniel Attang',
         profession: 'Software Engineer'
     },
     {
         id: 3,
         image: p_image1,
         testimony: 'The SproutCloud team has completely streamlined our business operations. Communication was excellent and overall we are very pleased',
-        name: 'Alpha Attang',
+        name: 'Williams Attang',
         profession: 'Software Engineer'
     },
     {
         id: 4,
         image: p_image1,
         testimony: 'The SproutCloud team has completely streamlined our business operations. Communication was excellent and overall we are very pleased',
-        name: 'Alpha Attang',
+        name: 'Archibong Attang',
         profession: 'Software Engineer'
     },
 ]

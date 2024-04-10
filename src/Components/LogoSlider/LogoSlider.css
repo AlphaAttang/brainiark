@@ -51,9 +51,15 @@
 
 .logos-slide figure {
     display: inline-block;
-    width: 180px;
+    width: 200px;
     margin: 0 40px;
 }
 .logos-slide img {
     width: 100%;
+}
+
+@media (max-width: 475px) {
+    .logos-slide figure {
+        width: 150px;
+    }
 }

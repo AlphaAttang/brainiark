@@ -1,0 +1,76 @@
+.billing {
+    /* width: 90%; */
+    /* max-width: 1400px; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.billing-card {
+    text-align: left;
+    background-color: white;
+    border-radius: 30px;
+    padding: 1.3rem;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.billing-head p:first-of-type {
+    font-weight: 500;
+}
+
+.billing-head h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.billing-head p:last-of-type {
+    color: gray;
+}
+
+.billing-list {
+    padding: 2rem 0;
+}
+
+.billing-item {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.7rem;
+}
+
+.billing-item p {
+    font-size: 15px;
+}
+
+.billing-item img {
+    width: 25px;
+}
+
+.billing button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 0.8rem;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.monthly .professional {
+    border-left: 2px solid #aa3fff;
+    border-top: 2px solid #aa3fff;
+    border-right: 2px solid #f8522e;
+    border-bottom: 2px solid #f8522e;
+    box-shadow: 0px 0px 10px 5px rgb(192, 192, 192);
+}
+
+@media (max-width: 768px) {
+    .billing {
+        grid-template-columns: 1fr;
+    }
+
+    .billing-card {
+        grid-template-rows: 1fr;
+        /* width: 100%;  
+        margin: auto; */
+    }
+}

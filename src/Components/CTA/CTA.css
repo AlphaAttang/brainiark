@@ -1,0 +1,41 @@
+.cta-container {
+    padding: 5rem 0;
+    background: rgb(237, 226, 255);
+    background: linear-gradient(0deg, rgba(237, 226, 255, 1) 0%, rgba(253, 227, 224, 1) 54%, rgba(255, 254, 254, 1) 100%);
+}
+
+.cta {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    background-color: #f8f9fc;
+    padding: 4rem 2rem 0;
+    border-radius: 20px;
+}
+
+.cta h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+}
+
+.cta h1 span {
+    background: linear-gradient(120deg, #6557ff, #aa3fff 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.cta button {
+    margin-top: 2.5rem;
+}
+
+.cta figure {
+    margin-top: 3rem;
+}
+
+@media (max-width: 475px) {
+    .cta h1 {
+        font-size: 2.5rem;
+    }
+    
+}

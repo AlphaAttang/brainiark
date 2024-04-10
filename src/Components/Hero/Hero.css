@@ -1,27 +1,21 @@
 .hero-container {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
-    /* background: linear-gradient(130deg, #6557ff, #aa3fff 30%, #f8522e 63%, #fcaa4a 81%); */
-    background: linear-gradient(135deg, rgb(238, 227, 255) 0%, rgb(252, 228, 225) 100%);
+    background: rgb(237, 226, 255);
+    background: linear-gradient(0deg, rgba(255, 254, 254, 1) 0%, rgba(253, 227, 224, 1) 54%, rgba(237, 226, 255, 1) 100%);
 }
 
 .hero {
-    max-width: 1000px;
+    width: 90%;
+    max-width: 800px;
     margin: auto;
     /* background-color: #6557ff; */
-    /* flex-basis: auto;
-    flex-grow: 1;
-    flex-shrink: 1; */
+    /* flex-basis: auto; */
     padding: 10rem 0 8rem;
 }
 
 .hero h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 600;
-    /* margin-bottom: -2rem; */
-    line-height: 5.5rem;
+    line-height: 4rem;
 }
 
 .hero h1 span {
@@ -39,17 +33,15 @@
     margin-bottom: 1.8rem;
 }
 
-.hero button {
-    padding: 0.7rem 2rem;
-    background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
-    color: white;
-    border-radius: 12px;
-    font-weight: 500;
-    font-size: 17px;
-}
-
 .slider-text {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 1rem;
     padding: 2rem 0 4rem;
+}
+
+@media (max-width: 475px) {
+    .hero h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+    }
 }

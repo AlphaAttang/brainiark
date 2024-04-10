@@ -3,16 +3,16 @@
     padding: 3rem;
     border-radius: 30px;
     background-color: #f8f9fc;
-    min-width: 1000px;
-    max-width: 1000px;
+    width: 800px;
+    /* max-width: 1000px; */
     display: grid;
     grid-template-columns: auto 1fr auto;
     gap: 3rem;
 }
 
 .testimonies figure {
-    width: 7rem;
-    height: 7rem;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 50%;
     overflow: hidden;
 }
@@ -34,24 +34,48 @@
     font-size: 18px;
 }
 
-.testimonies-info {
+.testimonies-footer {
     margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
-.testimonies-info p:first-of-type {
+
+.testimonies-footer p:first-of-type {
     font-weight: 500;
     font-size: 18px;
 }
-.testimonies-info p:last-of-type {
+
+.testimonies-footer p:last-of-type {
     color: gray;
 }
 
 .testimonies .commas {
-    width: 25px;
+    width: 1.5rem;
     display: flex;
     align-items: end;
 }
 
-.testimonies .commas img{
+.testimonies .commas img {
     background: linear-gradient(120deg, #6557ff, #aa3fff 50%, #f8522e 100%);
     color: transparent;
+}
+
+@media (max-width: 1024px) {
+    .testimonies {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        padding: 2rem;
+    }
+    
+}
+
+@media (max-width: 475px) {
+    .testimonies {
+        width: 280px;
+        padding: 1.5rem;
+    }
 }
