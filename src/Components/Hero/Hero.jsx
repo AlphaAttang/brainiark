@@ -4,7 +4,7 @@ import LogoSlider from '../LogoSlider/LogoSlider'
 import { Button } from '../ui/button'
 const Hero = () => {
   return (
-    <div className='hero-container'>
+    <div className='hero-container' >
       <div className="hero">
         <h1>Streamline with <span>Automated</span> Solutions.</h1>
         <p><b>Customer Service, Marketing, and Sales.</b></p>
