@@ -15,8 +15,8 @@ const Pricing = () => {
                         <p>Affordable for every business that wants to grow.</p>
                     </div>
                     <div className='pricing-menu'>
-                        <button className={menu === "monthly_billing" ? 'active' : <></>} onClick={() => { setMenu("monthly_billing") }}><Link to='/monthly_billing'>Bill Monthly</Link></button>
-                        <button className={menu === "yearly_billing" ? 'active' : <></>} onClick={() => { setMenu("yearly_billing") }}><Link to='/yearly_billing'>Bill Yearly <span>-15%</span></Link></button>
+                        <Link to='/monthly_billing'><button className={menu === "monthly_billing" ? 'active' : <></>} onClick={() => { setMenu("monthly_billing") }}>Bill Monthly</button></Link>
+                        <Link to='/yearly_billing'><button className={menu === "yearly_billing" ? 'active' : <></>} onClick={() => { setMenu("yearly_billing") }}>Bill Yearly <span>-15%</span></button></Link>
                     </div>
                     <Routes>
                         <Route path='/monthly_billing' element={<MonthlyBilling />} />
